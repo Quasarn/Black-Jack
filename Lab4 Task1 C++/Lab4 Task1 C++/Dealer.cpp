@@ -3,7 +3,7 @@
 
 Dealer::Dealer(void)
 {
-	gambler = 0;
+	//gambler = 0;
 }
 
 

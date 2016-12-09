@@ -3,7 +3,7 @@
 class Dealer
 {
 protected:
-	Player gambler;// или указатель
+	//Player gambler;// или указатель
 public:
 	Dealer(void);
 	~Dealer(void);
