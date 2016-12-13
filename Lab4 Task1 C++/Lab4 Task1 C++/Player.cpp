@@ -13,9 +13,19 @@ Player::~Player(void)
 }
 
 
-void Player::setPoints()
+void Player::setPoints(int points)
 {
-	setlocale(LC_ALL, "RUSSIAN");
-	cout << "Введите количество ваших очков: " << endl;
-	cin >> points;
+	balance = points;
+}
+
+
+void Player::addPoints(int points)
+{
+	balance += points;
+}
+
+
+void Player::takePoints(int points)
+{
+	balance -= points;
 }

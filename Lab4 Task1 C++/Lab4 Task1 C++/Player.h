@@ -1,12 +1,15 @@
 #pragma once
+
 class Player
 {
 private:
-	int points;
+	int balance;
 public:
 	Player(void);
 	~Player(void);
 
-	void setPoints();
+	void setPoints(int points);
+	void addPoints(int points);
+	void takePoints(int points);
 };
 

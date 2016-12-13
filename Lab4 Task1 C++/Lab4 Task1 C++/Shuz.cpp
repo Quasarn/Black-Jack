@@ -1,10 +1,17 @@
 #include "Shuz.h"
 #include <iostream>
-using namespace std;
 #include <iomanip>
-
+#include <ctime>
+using namespace std;
 Shuz::Shuz()
 {
+	numCardsDeck1 = 52;
+	numCardsDeck2 = 52;
+	numCardsDeck3 = 52;
+	numCardsDeck4 = 52;
+	
+	outCards = 0;
+
 	deck1 = new int* [4];
 	deck2 = new int* [4];
 	deck3 = new int* [4];
@@ -28,7 +35,7 @@ Shuz::~Shuz(void)
 }
 
 
-void Shuz::makeShuz()//передовать по ссылке
+void Shuz::makeShuz()
 {
 	for(int i = 0; i < 4; ++i)
 	{
@@ -55,7 +62,22 @@ void Shuz::makeShuz()//передовать по ссылке
 	}
 }
 
-//void Shuz::getCard(){}
+void Shuz::getCard()//???
+{
+	srand(time(0));
+	int randomDeck = rand()%4+1;
+	switch(randomDeck)
+	{
+	    case 1:;break;
+		case 2:;break;
+		case 3:;break;
+		case 4:;break;
+	}
+
+}
+
+void getCard()//???
+{}
 
 
 void Shuz::writeDeck()//int** deck
