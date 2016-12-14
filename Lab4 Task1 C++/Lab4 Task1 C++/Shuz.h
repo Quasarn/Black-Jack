@@ -2,17 +2,23 @@
 class Shuz
 {
 private:
-	int** arrayCards1;
-	int** arrayCards2;
-	int** arrayCards3;
-	int** arrayCards4;
-	int x;
-	int y;
-	int g;
+	int numCardsDeck1;
+	int numCardsDeck2;
+	int numCardsDeck3;
+	int numCardsDeck4;
+
+	int outCards;
+
+	int** deck1;
+	int** deck2;
+	int** deck3;
+	int** deck4;
 public:
 	Shuz(void);
 	~Shuz(void);
 
-	void makeAllCards(int** arrayCards);//передовать по ссылке
+	void makeShuz();
+	void getCard();
+	void writeDeck();
 };
 

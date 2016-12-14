@@ -1,17 +1,32 @@
-﻿Построение начато 07.12.2016 12:57:43.
-     1>Проект "D:\Programs\Git\gitR_BJ\Lab4 Task1 C++\Lab4 Task1 C++\Lab4 Task1 C++.vcxproj" в узле 2 (целевые объекты build).
+﻿Построение начато 13.12.2016 21:30:34.
+     1>Проект "D:\Programs\Git\git_Rep\Lab4 Task1 C++\Lab4 Task1 C++\Lab4 Task1 C++.vcxproj" в узле 2 (целевые объекты build).
      1>InitializeBuildStatus:
-         Обращение к "Debug\Lab4 Task1 C++.unsuccessfulbuild".
+         Создание "Debug\Lab4 Task1 C++.unsuccessfulbuild", так как было задано "AlwaysCreate".
        ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Dealer.cpp "Сards.cpp"
-         Сards.cpp
-         Dealer.cpp
-     1>d:\programs\git\gitr_bj\lab4 task1 c++\lab4 task1 c++\dealer.cpp(6): error C2679: бинарный "=": не найден оператор, принимающий правый операнд типа "int" (или приемлемое преобразование отсутствует)
-                 d:\programs\git\gitr_bj\lab4 task1 c++\lab4 task1 c++\player.h(11): может быть "Player &Player::operator =(const Player &)"
-                 при попытке сопоставить список аргументов "(Player, int)"
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Game.cpp Shuz.cpp main.cpp
+         Shuz.cpp
+     1>d:\programs\git\git_rep\lab4 task1 c++\lab4 task1 c++\shuz.cpp(60): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
          Создание кода...
-     1>Построение проекта "D:\Programs\Git\gitR_BJ\Lab4 Task1 C++\Lab4 Task1 C++\Lab4 Task1 C++.vcxproj" завершено (целевые объекты build) с ошибкой.
+         Компиляция...
+         Game.cpp
+         Создание кода...
+         Пропуск... (изменения не обнаружены)
+         main.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Programs\Git\git_Rep\Lab4 Task1 C++\Debug\Lab4 Task1 C++.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Lab4 Task1 C++.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\Programs\Git\git_Rep\Lab4 Task1 C++\Debug\Lab4 Task1 C++.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Programs\Git\git_Rep\Lab4 Task1 C++\Debug\Lab4 Task1 C++.lib" /MACHINE:X86 Debug\Dealer.obj
+         Debug\Game.obj
+         Debug\main.obj
+         Debug\Player.obj
+         Debug\Shuz.obj
+         LINK : не найден или не выполнена сборка D:\Programs\Git\git_Rep\Lab4 Task1 C++\Debug\Lab4 Task1 C++.exe при последней инкрементной компоновке; выполняется полная компоновка
+         Lab4 Task1 C++.vcxproj -> D:\Programs\Git\git_Rep\Lab4 Task1 C++\Debug\Lab4 Task1 C++.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\Programs\Git\git_Rep\Lab4 Task1 C++\Debug\Lab4 Task1 C++.exe;#1" /manifest "Debug\Lab4 Task1 C++.exe.intermediate.manifest"
+       FinalizeBuildStatus:
+         Файл "Debug\Lab4 Task1 C++.unsuccessfulbuild" удаляется.
+         Обращение к "Debug\Lab4 Task1 C++.lastbuildstate".
+     1>Построение проекта "D:\Programs\Git\git_Rep\Lab4 Task1 C++\Lab4 Task1 C++\Lab4 Task1 C++.vcxproj" завершено (целевые объекты build).
 
-СБОЙ построения.
+Построение успешно завершено.
 
-Затраченное время: 00:00:00.94
+Затраченное время: 00:00:02.48

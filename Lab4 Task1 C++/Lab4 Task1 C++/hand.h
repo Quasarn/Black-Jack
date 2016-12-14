@@ -1,8 +1,14 @@
 #pragma once
-class hand
+class Hand
 {
+private:
+	int numberCards;
+	int* arrayCards;
 public:
-	hand(void);
-	~hand(void);
+	Hand(void);
+	~Hand(void);
+
+	void setCard();
+	void clearHand();
 };
 

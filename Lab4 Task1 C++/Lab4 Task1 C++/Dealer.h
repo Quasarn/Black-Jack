@@ -1,9 +1,9 @@
 #pragma once
 #include "Player.h"
-class Dealer
+class Dealer  : public Player
 {
-protected:
-	Player gambler;// или указатель
+private:
+	int rate;
 public:
 	Dealer(void);
 	~Dealer(void);
